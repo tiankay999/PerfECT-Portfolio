@@ -124,7 +124,7 @@ export default function Contact() {
 
         {/* Footer */}
         <div className="mt-16 flex flex-col md:flex-row items-center justify-between gap-4 text-white/25 text-[11px] font-[var(--font-accent)] tracking-wider">
-          <p>&copy; {new Date().getFullYear()} Syed Noor. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Christian Asante. All rights reserved.</p>
           <p>Crafted with care in every pixel.</p>
         </div>
       </div>

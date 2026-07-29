@@ -57,7 +57,7 @@ export const projects = [
     name: "Questiondey - Study Platform",
     description: "Questiondey is an Application for academic discussions and Q&A. It provides a modern, fast and customizable user interface, with Artificial Intelligence integration.",
     href: "https://questiondey.com/",
-    image: "/manus-storage/lumivance-ecommerce_330602a4.jpg",
+    image: "/images/questionsdey.jpg",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 4, name: "MongoDB" },
@@ -72,7 +72,7 @@ export const projects = [
     name: "Selseve - Find Trusted Artisans Near You",
     description: "Selseve is a platform that connects people with trusted artisans near them. It provides a modern, fast and customizable user interface, with Artificial Intelligence integration.",
     href: "https://selseve.com/",
-    image: "/manus-storage/selseve_f2aded5e.jpg",
+    image: "/images/selseve.jpg",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 3, name: "Paystack" },
@@ -85,7 +85,7 @@ export const projects = [
     name: "Qrollix - QR Code Attendance System",
     description: "Qrollix is an AI-powered platform that generates high-quality content for various purposes. It provides a modern, fast and customizable user interface, with Artificial Intelligence integration.",
     href: "https://qrollix.com/",
-    image: "/manus-storage/qrollix_1c5026d3.jpg",
+    image: "/images/qrollix.jpg",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 3, name: "Tailwind CSS" },
@@ -98,7 +98,7 @@ export const projects = [
     name: "MinaGlitzy - Ecommerce Costmetics Online",
     description: "A online shop featuring costmetics and accessories with special offers.",
     href: "https://minaglitz.com/",
-    image: "/manus-storage/minaglitzy_5d10a35e.jpg",
+    image: "/images/minaglitzy.jpg",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 4, name: "MongoDB" },
@@ -112,7 +112,7 @@ export const projects = [
     name: "Treatos BD - Pet Shop with POS System",
     description: "A curated collection of designer home decor items, including furniture and artisan vases.",
     href: "https://treatosbd.com/",
-    image: "/manus-storage/treatosbd-web-store_e149f385.jpg",
+    image: "/images/nkaydata.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Laravel" },
@@ -126,11 +126,25 @@ export const projects = [
     name: "NkayData - Data Reselling Platform",
     description: "A platform for buying and selling mobile data and airtime.",
     href: "https://nkaydata.com/",
-    image: "/manus-storage/nkaydata_1610a622.jpg",
+    image: "/images/nkaydata.jpg",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Express.js" },
       { id: 3, name: "MongoDb" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Paystack" },
+    ],
+  },
+  {
+    id: 7,
+    name: "Steeze Track - Import and Export Management System",
+    description: "A platform for import and export management.",
+    href: "https://steezeytrack.com/",
+    image: "/images/steezeytrack.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Express.js" },
+      { id: 3, name: "MySql" },
       { id: 4, name: "Tailwind CSS" },
       { id: 5, name: "Paystack" },
     ],
@@ -146,19 +160,19 @@ export const socials = [
 
 export const testimonials = [
   {
-    company: "/manus-storage/interaid_d918b4d4.png",
+    company: "/images/selseve.jpg",
     quote: "An amazing developer and human being who truly understands what a platform needs to grow.",
     name: "Md Azizul Haque",
     title: "Owner, InterAiD",
   },
   {
-    company: "/manus-storage/puppetbrush_0c58c594.png",
+    company: "/images/qrollix.jpg",
     quote: "Very knowledgeable, patient, and always ready to explain things. Great experience working with him.",
     name: "Kazi Farhan Masum",
     title: "CEO, Puppetbrush",
   },
   {
-    company: "/manus-storage/qahaf_fc7d8750.png",
+    company: "/images/minaglitzy.jpg",
     quote: "Thanks to him, we were able to launch our platform on time and start getting sales immediately.",
     name: "Mustafa Mehedi",
     title: "Co-Founder, Qahaf",
@@ -172,12 +186,13 @@ export const stats = [
 ];
 
 export const clientImages = [
-  "/manus-storage/selseve_f2aded5e.jpg",
-  "/manus-storage/questionsdey_b23857a8.jpg",
-  "/manus-storage/nkaydata_1610a622.jpg",
-  "/manus-storage/ghanafast-data_4f4c8527.jpg",
-  "/manus-storage/minaglitzy_5d10a35e.jpg",
-  "/manus-storage/qrollix_1c5026d3.jpg",
+  "/images/selseve.jpg",
+  "/images/questionsdey.jpg",
+  "/images/nkaydata.jpg",
+  "/images/ghanafast-data.jpg",
+  "/images/minaglitzy.jpg",
+  "/images/qrollix.jpg",
+  "/images/steezetrack.jpg",
 ];
 
 export const quotes = [
@@ -188,11 +203,11 @@ export const quotes = [
   { text: "Every pixel should earn its place on the screen.", author: "" },
 ];
 
-export const logoUrl = "/manus-storage/logo_6ec56484.png";
-export const aboutImageUrl = "/manus-storage/shaed-noor_fac7dda4.webp";
-export const poster1Url = "/manus-storage/poster-1_1d41b4c0.jpg";
-export const poster2Url = "/manus-storage/poster-2_8775f918.jpg";
-export const heroBgUrl = "/manus-storage/hero-bg_097296f1.png";
-export const servicesBgUrl = "/manus-storage/services-bg_f01eac5a.png";
-export const worksBgUrl = "/manus-storage/works-bg_8c2765bb.png";
-export const aboutBgUrl = "/manus-storage/about-bg_7b9f56d3.png";
+export const logoUrl = "";
+export const aboutImageUrl = "/images/christian.png";
+export const poster1Url = "/images/selseve.png";
+export const poster2Url = "/images/qrollix.png";
+export const heroBgUrl = "";
+export const servicesBgUrl = "/images/minaglitzy.png";
+export const worksBgUrl = "/images/qrollix.png";
+export const aboutBgUrl = "/images/selseve.png";

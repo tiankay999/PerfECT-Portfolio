@@ -8,7 +8,7 @@ export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
   const subtitleRef = useRevealOnScroll();
 
-  const titleText = "Syed Noor";
+  const titleText = "Christian Asante";
 
   useEffect(() => {
     const ctx = gsap.context(() => {

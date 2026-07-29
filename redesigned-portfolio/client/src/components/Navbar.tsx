@@ -41,9 +41,8 @@ export default function Navbar() {
     <>
       {/* Top bar */}
       <header
-        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5 transition-all duration-500 ${
-          scrolled ? "bg-obsidian/90 backdrop-blur-xl border-b border-gold/10" : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5 transition-all duration-500 ${scrolled ? "bg-obsidian/90 backdrop-blur-xl border-b border-gold/10" : "bg-transparent"
+          }`}
       >
         <div className="flex items-center gap-3" data-magnetic>
           <img
@@ -52,7 +51,7 @@ export default function Navbar() {
             className="w-9 h-9 md:w-11 md:h-11 object-contain"
           />
           <span className="font-[var(--font-display)] text-sm md:text-base font-bold tracking-wide text-white/90">
-            Syed Noor
+            Christian Asante
           </span>
         </div>
         <button
