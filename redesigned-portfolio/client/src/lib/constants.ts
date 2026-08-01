@@ -57,7 +57,7 @@ export const projects = [
     name: "Questiondey - Study Platform",
     description: "Questiondey is an Application for academic discussions and Q&A. It provides a modern, fast and customizable user interface, with Artificial Intelligence integration.",
     href: "https://questiondey.com/",
-    image: "/images/questionsdey.jpg",
+    image: "/images/questionsdeyview.png",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 4, name: "MongoDB" },
@@ -72,7 +72,7 @@ export const projects = [
     name: "Selseve - Find Trusted Artisans Near You",
     description: "Selseve is a platform that connects people with trusted artisans near them. It provides a modern, fast and customizable user interface, with Artificial Intelligence integration.",
     href: "https://selseve.com/",
-    image: "/images/selseve.jpg",
+    image: "/images/selseveview.png",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 3, name: "Paystack" },
@@ -98,7 +98,7 @@ export const projects = [
     name: "MinaGlitzy - Ecommerce Costmetics Online",
     description: "A online shop featuring costmetics and accessories with special offers.",
     href: "https://minaglitz.com/",
-    image: "/images/minaglitzy.jpg",
+    image: "/images/minaview.png",
     frameworks: [
       { id: 2, name: "Next.js" },
       { id: 4, name: "MongoDB" },
@@ -126,7 +126,7 @@ export const projects = [
     name: "NkayData - Data Reselling Platform",
     description: "A platform for buying and selling mobile data and airtime.",
     href: "https://nkaydata.com/",
-    image: "/images/nkaydata.jpg",
+    image: "/images/nkaydata.png",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Express.js" },
@@ -139,8 +139,8 @@ export const projects = [
     id: 7,
     name: "Steeze Track - Import and Export Management System",
     description: "A platform for import and export management.",
-    href: "https://steezeytrack.com/",
-    image: "/images/steezeytrack.jpg",
+    href: "https://steezetrack.com/",
+    image: "/images/steezetrackview.png",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Express.js" },
@@ -162,8 +162,8 @@ export const testimonials = [
   {
     company: "/images/selseve.jpg",
     quote: "An amazing developer and human being who truly understands what a platform needs to grow.",
-    name: "Md Azizul Haque",
-    title: "Owner, InterAiD",
+    name: "Mr Nicholas Zanu",
+    title: "CEO, Selseve",
   },
   {
     company: "/images/qrollix.jpg",
@@ -174,13 +174,13 @@ export const testimonials = [
   {
     company: "/images/minaglitzy.jpg",
     quote: "Thanks to him, we were able to launch our platform on time and start getting sales immediately.",
-    name: "Mustafa Mehedi",
-    title: "Co-Founder, Qahaf",
+    name: "Miss Mina ",
+    title: "CEO, MinaGlitzy",
   },
 ];
 
 export const stats = [
-  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 2, suffix: "+", label: "Years of Experience" },
   { value: 24, suffix: "", label: "Projects Completed" },
   { value: 100, suffix: "%", label: "Client Satisfaction" },
 ];

@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRevealOnScroll } from "@/hooks/useScrollAnimations";
-import { clientImages, poster1Url, poster2Url } from "@/lib/constants";
+import { clientImages } from "@/lib/constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,27 +68,6 @@ export default function Clients() {
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500" />
             </div>
           ))}
-          {/* Posters */}
-          <div
-            className="client-cell relative aspect-square md:col-span-2 rounded-xl overflow-hidden border border-white/5 hover:border-gold/20 transition-all duration-500 group"
-          >
-            <img
-              src={poster1Url}
-              alt="poster"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-black/10" />
-          </div>
-          <div
-            className="client-cell relative aspect-square rounded-xl overflow-hidden border border-white/5 hover:border-gold/20 transition-all duration-500 group"
-          >
-            <img
-              src={poster2Url}
-              alt="poster"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-black/10" />
-          </div>
         </div>
       </div>
     </section>

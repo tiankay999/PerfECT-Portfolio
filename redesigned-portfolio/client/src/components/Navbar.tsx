@@ -46,9 +46,9 @@ export default function Navbar() {
       >
         <div className="flex items-center gap-3" data-magnetic>
           <img
-            src="/manus-storage/logo-mark_7ba3f31f.png"
-            alt="SN"
-            className="w-9 h-9 md:w-11 md:h-11 object-contain"
+           src="/images/steeze.png"
+            alt="CA"
+            className="w-9 h-9 md:w-11 md:h-11 object-contain rounded-full"
           />
           <span className="font-[var(--font-display)] text-sm md:text-base font-bold tracking-wide text-white/90">
             Christian Asante

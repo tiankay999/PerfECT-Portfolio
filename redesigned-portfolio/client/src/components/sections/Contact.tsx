@@ -81,7 +81,7 @@ export default function Contact() {
                 Phone
               </p>
               <p className="text-white text-lg md:text-xl font-[var(--font-body)] font-light">
-                +233 550 450575
+                +233 50 550 4505
               </p>
             </div>
           </div>
