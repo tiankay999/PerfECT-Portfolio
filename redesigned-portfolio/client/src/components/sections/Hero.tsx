@@ -97,7 +97,7 @@ export default function Hero() {
 
         <h1
           ref={titleRef}
-          className="font-[var(--font-display)] text-[clamp(3.5rem,12vw,10rem)] font-bold leading-[0.85] tracking-tight text-white mb-10"
+          className="font-[var(--font-display)] text-[clamp(2.5rem,8vw,6.5rem)] font-bold leading-[0.85] tracking-tight text-white mb-10"
           style={{ perspective: "1000px" }}
         >
           {titleText.split("").map((char, i) => (

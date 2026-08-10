@@ -139,8 +139,21 @@ export const projects = [
     id: 7,
     name: "Steeze Track - Import and Export Management System",
     description: "A platform for import and export management.",
-    href: "https://steezetrack.com/",
     image: "/images/steezetrackview.png",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Express.js" },
+      { id: 3, name: "MySql" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Paystack" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Steeze Humanizer - AI Content Writing Assistant",
+    description: "An AI powered Content Writing Assistant.",
+    href: "https://steezehumanizer.com/",
+    image: "/images/humanizer.png",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Express.js" },
