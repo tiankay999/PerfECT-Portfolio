@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const keywords = [
   { label: "Backends", items: ["Node.js", "Express", "Laravel", "Python"] },
   { label: "Ecommerce", items: ["Shopify", "WooCommerce", "Custom", "POS"] },
-  { label: "Deployment", items: ["AWS", "Vercel", "Railway", "Docker"] },
+  { label: "Deployment", items: ["AWS", "Vercel", "Railway", "Docker", "VPS", "PM2"] },
   { label: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind"] },
 ];
 
