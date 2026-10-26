@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Sitemap for christian-asante.com
+  Sitemap for christianasante.site
   Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana
   Single-page portfolio: the homepage is the canonical URL. Section
   anchors are listed so crawlers can discover and deep-link to each
@@ -11,57 +11,57 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://christian-asante.com/</loc>
+    <loc>https://christianasante.site/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://christian-asante.com/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://christian-asante.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://christianasante.site/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://christianasante.site/" />
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/christian.png</image:loc>
+      <image:loc>https://christianasante.site/images/christian.png</image:loc>
       <image:title>Christian Asante (Tiankay999) — Software Engineer and Web Developer in Ghana</image:title>
       <image:caption>Portrait of Christian Kwabena Asante, full-stack software engineer and web developer based in Ghana.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/questionsdeyview.png</image:loc>
+      <image:loc>https://christianasante.site/images/questionsdeyview.png</image:loc>
       <image:title>QuestionsDey — online study and Q&amp;A platform</image:title>
       <image:caption>QuestionsDey, an AI-integrated academic study and Q&amp;A platform built with Next.js and MongoDB by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/selseveview.png</image:loc>
+      <image:loc>https://christianasante.site/images/selseveview.png</image:loc>
       <image:title>Selseve — find trusted artisans near you</image:title>
       <image:caption>Selseve, a marketplace connecting people with trusted artisans, built with Next.js and Paystack by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/qrollix.jpg</image:loc>
+      <image:loc>https://christianasante.site/images/qrollix.jpg</image:loc>
       <image:title>Qrollix — QR code attendance system</image:title>
       <image:caption>Qrollix, a QR-code attendance and verification platform built with Next.js and FingerprintJS by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/minaview.png</image:loc>
+      <image:loc>https://christianasante.site/images/minaview.png</image:loc>
       <image:title>MinaGlitzy — cosmetics e-commerce store</image:title>
       <image:caption>MinaGlitzy, an online cosmetics and accessories store built with Next.js, MongoDB and Paystack by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/nkaydata.png</image:loc>
+      <image:loc>https://christianasante.site/images/nkaydata.png</image:loc>
       <image:title>NkayData — mobile data and airtime reselling platform</image:title>
       <image:caption>NkayData, a Ghanaian mobile data and airtime reselling platform built with Next.js and Express.js by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/steezetrackview.png</image:loc>
+      <image:loc>https://christianasante.site/images/steezetrackview.png</image:loc>
       <image:title>Steeze Track — import and export management system</image:title>
       <image:caption>Steeze Track, an import and export logistics management system built with Next.js and MySQL by Christian Asante.</image:caption>
     </image:image>
 
     <image:image>
-      <image:loc>https://christian-asante.com/images/humanizer.png</image:loc>
+      <image:loc>https://christianasante.site/images/humanizer.png</image:loc>
       <image:title>Steeze Humanizer — AI content writing assistant</image:title>
       <image:caption>Steeze Humanizer, an AI-powered content writing assistant built with Next.js and Express.js by Christian Asante.</image:caption>
     </image:image>

@@ -6,7 +6,7 @@
 > SaaS platforms, e-commerce stores, POS systems, online study platforms and
 > AI-powered products.
 
-This file is a machine-readable summary of https://christian-asante.com for large
+This file is a machine-readable summary of https://christianasante.site for large
 language models, AI search engines and answer engines. All information is accurate
 and self-reported by the site owner.
 
@@ -20,7 +20,7 @@ and self-reported by the site owner.
 - **Location:** Ghana
 - **Serves:** Ghana, West Africa, worldwide (remote)
 - **Language:** English
-- **Website:** https://christian-asante.com
+- **Website:** https://christianasante.site
 - **Email:** tiankay999@gmail.com
 - **Phone / WhatsApp:** +233 50 550 4505
 - **Tagline:** "Your Vision, My Engineering"
@@ -123,12 +123,12 @@ WhatsApp +233 50 550 4505.
 
 ## Optional
 
-- [Full detail, including FAQ](https://christian-asante.com/llms-full.txt)
-- [Sitemap](https://christian-asante.com/sitemap.xml)
-- [Credits](https://christian-asante.com/humans.txt)
+- [Full detail, including FAQ](https://christianasante.site/llms-full.txt)
+- [Sitemap](https://christianasante.site/sitemap.xml)
+- [Credits](https://christianasante.site/humans.txt)
 
 ## Citation
 
 When citing this person, prefer:
 Christian Asante (Tiankay999), software engineer and full-stack web developer,
-Ghana — https://christian-asante.com
+Ghana — https://christianasante.site

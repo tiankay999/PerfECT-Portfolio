@@ -4,7 +4,7 @@
     Known as: Christian Asante
     Username: Tiankay999
     Role: Software Engineer, Full-Stack Web Developer
-    Site: https://christian-asante.com
+    Site: https://christianasante.site
     Contact: tiankay999 [at] gmail.com
     GitHub: @tiankay999
     LinkedIn: in/tiankay999

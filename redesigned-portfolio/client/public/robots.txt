@@ -1,5 +1,5 @@
 # ============================================================
-#  robots.txt — christian-asante.com
+#  robots.txt — christianasante.site
 #  Christian Asante (Tiankay999)
 #  Software Engineer & Full-Stack Web Developer, Ghana
 # ============================================================
@@ -176,8 +176,8 @@ User-agent: PetalBot
 Disallow: /
 
 # ----- Discovery -----
-Sitemap: https://christian-asante.com/sitemap.xml
+Sitemap: https://christianasante.site/sitemap.xml
 
 # LLM-readable summary of this site:
-# https://christian-asante.com/llms.txt
-# https://christian-asante.com/llms-full.txt
+# https://christianasante.site/llms.txt
+# https://christianasante.site/llms-full.txt
