@@ -221,6 +221,7 @@ export const aboutImageUrl = "/images/christian.png";
 export const poster1Url = "/images/selseve.png";
 export const poster2Url = "/images/qrollix.png";
 export const heroBgUrl = "";
-export const servicesBgUrl = "/images/minaglitzy.png";
+// The file on disk is spelled "minagitzy.png"; the correctly spelled path 404s.
+export const servicesBgUrl = "/images/minagitzy.png";
 export const worksBgUrl = "/images/qrollix.png";
 export const aboutBgUrl = "/images/selseve.png";

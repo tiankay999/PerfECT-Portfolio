@@ -1,4 +1,183 @@
+# ============================================================
+#  robots.txt — christian-asante.com
+#  Christian Asante (Tiankay999)
+#  Software Engineer & Full-Stack Web Developer, Ghana
+# ============================================================
+
+# ----- Default: everything is open -----
+# /404 is deliberately crawlable: it serves a noindex meta tag at runtime, and a
+# Disallow here would stop crawlers fetching the page and ever seeing it.
 User-agent: *
 Allow: /
+Disallow: /__manus__/
 
+# ----- Search engines -----
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ----- AI answer engines & assistants (GEO) -----
+# Explicitly welcomed so this profile can be cited as a source
+# when people ask an assistant for a software engineer or web
+# developer in Ghana.
+
+# Google AI / Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# OpenAI — ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: BingPreview
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Common Crawl (training corpus many models are built on)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# Diffbot / knowledge graphs
+User-agent: Diffbot
+Allow: /
+
+# Bytedance
+User-agent: Bytespider
+Allow: /
+
+# Timpi, Omgili, Webz
+User-agent: Timpibot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+# ----- Social / link preview unfurlers -----
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: redditbot
+Allow: /
+
+# ----- Bad-faith scrapers (bandwidth, no SEO/GEO value) -----
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+# ----- Discovery -----
 Sitemap: https://christian-asante.com/sitemap.xml
+
+# LLM-readable summary of this site:
+# https://christian-asante.com/llms.txt
+# https://christian-asante.com/llms-full.txt

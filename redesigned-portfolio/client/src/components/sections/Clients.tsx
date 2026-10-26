@@ -62,7 +62,7 @@ export default function Clients() {
             >
               <img
                 src={img}
-                alt="client"
+                alt={`Client project ${i + 1} delivered by Christian Asante`}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-500" />

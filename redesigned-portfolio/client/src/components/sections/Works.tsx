@@ -108,7 +108,7 @@ export default function Works() {
                 <div className="md:hidden mt-5 overflow-hidden rounded-xl">
                   <img
                     src={project.image}
-                    alt={project.name}
+                    alt={`${project.name} — web project built by Christian Asante`}
                     className="w-full h-48 object-cover"
                   />
                 </div>
@@ -133,7 +133,7 @@ export default function Works() {
         {hoveredIndex !== null && (
           <img
             src={projects[hoveredIndex].image}
-            alt="preview"
+            alt={`Preview of ${projects[hoveredIndex].name}`}
             className="w-full h-full object-cover"
           />
         )}

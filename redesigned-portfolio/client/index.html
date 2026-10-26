@@ -3,40 +3,669 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <title>Christian Asante | Personal Portfolio Website</title>
-  
-  <!-- Primary Meta Tags -->
-  <meta name="title" content="Christian Asante | Personal Portfolio Website" />
-  <meta name="description" content="Personal portfolio of Christian Asante. Full stack developer specializing in React, Node.js, and modern web applications." />
-  <meta name="keywords" content="Christian Asante, Full Stack Developer, Web Developer, React, Node.js, TypeScript, Portfolio" />
-  <meta name="author" content="Christian Asante" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://christian-asante.com/" />
-  <meta property="og:title" content="Christian Asante | Personal Portfolio Website" />
-  <meta property="og:description" content="Personal portfolio of Christian Asante. Full stack developer specializing in React, Node.js, and modern web applications." />
-  <meta property="og:image" content="https://christian-asante.com/images/og-image.jpg" />
+  <!-- ============================================================
+       PRIMARY META
+       ============================================================ -->
+  <title>Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana</title>
+  <meta name="title" content="Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana" />
+  <meta name="description"
+    content="Christian Asante (Tiankay999) is a full-stack software engineer and web developer in Ghana. React, Next.js, Node.js, SaaS, e-commerce, POS and AI integrations." />
+  <meta name="author" content="Christian Kwabena Asante" />
+  <meta name="creator" content="Christian Asante (Tiankay999)" />
+  <meta name="publisher" content="Christian Asante" />
+  <meta name="keywords"
+    content="Christian Asante, Tiankay999, software engineer Ghana, web developer Ghana, full stack developer Ghana, React developer Ghana, Next.js developer Ghana, Node.js developer Ghana, hire web developer Ghana, SaaS developer Ghana, e-commerce developer Ghana, POS system developer Ghana, AI integration developer, Paystack integration developer, freelance software engineer Ghana, best web developer in Ghana, Christian Kwabena Asante, STEEZE TECH" />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://christian-asante.com/" />
-  <meta property="twitter:title" content="Christian Asante | Personal Portfolio Website" />
-  <meta property="twitter:description" content="Personal portfolio of Christian Asante. Full stack developer specializing in React, Node.js, and modern web applications." />
-  <meta property="twitter:image" content="https://christian-asante.com/images/og-image.jpg" />
-  
+  <!-- Crawling / indexing -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+  <!-- Geo targeting -->
+  <meta name="geo.region" content="GH" />
+  <meta name="geo.placename" content="Ghana" />
+  <meta name="language" content="English" />
+  <meta name="rating" content="general" />
+  <meta name="distribution" content="global" />
+  <meta name="coverage" content="Worldwide" />
+
+  <!-- Canonical & alternates -->
   <link rel="canonical" href="https://christian-asante.com/" />
+  <link rel="alternate" hreflang="en" href="https://christian-asante.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://christian-asante.com/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://christian-asante.com/sitemap.xml" />
+  <link rel="author" href="https://christian-asante.com/humans.txt" />
+  <link rel="me" href="https://github.com/tiankay999" />
+  <link rel="me" href="https://www.linkedin.com/in/tiankay999/" />
+  <link rel="me" href="https://www.instagram.com/chrisblury999/" />
+  <link rel="me" href="mailto:tiankay999@gmail.com" />
+
+  <!-- Theme / app -->
+  <meta name="theme-color" content="#0A0A0A" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="apple-mobile-web-app-title" content="Christian Asante" />
+  <meta name="application-name" content="Christian Asante" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="apple-touch-icon" href="/images/christian.png" />
+
+  <!-- ============================================================
+       OPEN GRAPH (Facebook, LinkedIn, WhatsApp, Slack)
+       ============================================================ -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Christian Asante — Software Engineer & Web Developer" />
+  <meta property="og:url" content="https://christian-asante.com/" />
+  <meta property="og:title" content="Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana" />
+  <meta property="og:description"
+    content="Full-stack software engineer and web developer based in Ghana. I build fast, scalable web apps, SaaS platforms, e-commerce stores, POS systems and AI-powered products." />
+  <meta property="og:image" content="https://christian-asante.com/images/christian.png" />
+  <meta property="og:image:secure_url" content="https://christian-asante.com/images/christian.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="941" />
+  <meta property="og:image:height" content="1672" />
+  <meta property="og:image:alt" content="Portrait of Christian Asante, software engineer and web developer in Ghana" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="profile:first_name" content="Christian" />
+  <meta property="profile:last_name" content="Asante" />
+  <meta property="profile:username" content="tiankay999" />
+
+  <!-- ============================================================
+       TWITTER / X
+       ============================================================ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://christian-asante.com/" />
+  <meta name="twitter:title" content="Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana" />
+  <meta name="twitter:description"
+    content="Full-stack software engineer and web developer based in Ghana. React, Next.js, Node.js, SaaS, e-commerce, POS and AI integrations." />
+  <meta name="twitter:image" content="https://christian-asante.com/images/christian.png" />
+  <meta name="twitter:image:alt" content="Portrait of Christian Asante, software engineer and web developer in Ghana" />
+  <meta name="twitter:label1" content="Role" />
+  <meta name="twitter:data1" content="Software Engineer / Full-Stack Web Developer" />
+  <meta name="twitter:label2" content="Based in" />
+  <meta name="twitter:data2" content="Ghana — available worldwide" />
+
+  <!-- ============================================================
+       PERFORMANCE HINTS
+       ============================================================ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
+
+  <!-- ============================================================
+       STRUCTURED DATA (schema.org JSON-LD)
+       One connected @graph so search engines and AI crawlers can
+       resolve the entity "Christian Asante / Tiankay999" reliably.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://christian-asante.com/#person",
+        "name": "Christian Asante",
+        "givenName": "Christian",
+        "additionalName": "Kwabena",
+        "familyName": "Asante",
+        "alternateName": [
+          "Tiankay999",
+          "tiankay999",
+          "Christian Kwabena Asante",
+          "Chris Asante",
+          "chrisblury999"
+        ],
+        "disambiguatingDescription": "Software engineer and full-stack web developer based in Ghana, known online under the username Tiankay999.",
+        "description": "Christian Asante, also known online as Tiankay999, is a software engineer and full-stack web developer based in Ghana. He builds scalable web applications, SaaS platforms, e-commerce stores, POS systems, online study platforms and AI-powered products using React, Next.js, TypeScript, Node.js, Express, Laravel, Java, MySQL, MongoDB and PostgreSQL.",
+        "url": "https://christian-asante.com/",
+        "mainEntityOfPage": { "@id": "https://christian-asante.com/#webpage" },
+        "image": {
+          "@type": "ImageObject",
+          "@id": "https://christian-asante.com/#primaryimage",
+          "url": "https://christian-asante.com/images/christian.png",
+          "contentUrl": "https://christian-asante.com/images/christian.png",
+          "width": 941,
+          "height": 1672,
+          "caption": "Christian Asante (Tiankay999), software engineer and web developer in Ghana"
+        },
+        "jobTitle": [
+          "Software Engineer",
+          "Full-Stack Web Developer",
+          "Web Developer"
+        ],
+        "email": "mailto:tiankay999@gmail.com",
+        "telephone": "+233505504505",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GH"
+        },
+        "nationality": { "@type": "Country", "name": "Ghana" },
+        "homeLocation": { "@type": "Place", "name": "Ghana" },
+        "workLocation": [
+          { "@type": "Place", "name": "Ghana" },
+          { "@type": "Place", "name": "Remote / Worldwide" }
+        ],
+        "knowsLanguage": [
+          { "@type": "Language", "name": "English", "alternateName": "en" }
+        ],
+        "knowsAbout": [
+          "Software Engineering",
+          "Full-Stack Web Development",
+          "Frontend Engineering",
+          "Backend Engineering",
+          "React",
+          "Next.js",
+          "TypeScript",
+          "JavaScript",
+          "Tailwind CSS",
+          "Redux Toolkit",
+          "Framer Motion",
+          "GSAP",
+          "Node.js",
+          "Express.js",
+          "Laravel",
+          "PHP",
+          "Python",
+          "Java",
+          "REST API Design",
+          "GraphQL",
+          "Microservices",
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB",
+          "Database Architecture",
+          "Multi-Tenant SaaS Architecture",
+          "E-commerce Development",
+          "Point of Sale (POS) Systems",
+          "Paystack Integration",
+          "Stripe Integration",
+          "PayPal Integration",
+          "SSL Commerz Integration",
+          "Subscription Billing",
+          "Authentication and Authorization",
+          "JWT",
+          "OAuth 2.0",
+          "AWS",
+          "Vercel",
+          "Railway",
+          "Docker",
+          "VPS Deployment",
+          "PM2",
+          "Core Web Vitals",
+          "Web Performance Optimization",
+          "Technical SEO",
+          "Legacy Code Refactoring",
+          "Artificial Intelligence Integration",
+          "Large Language Models",
+          "OpenAI API",
+          "Google Gemini API",
+          "Anthropic Claude API",
+          "Prompt Engineering",
+          "Retrieval Augmented Generation (RAG)",
+          "Vector Databases",
+          "Embeddings",
+          "AI Chatbots",
+          "Recommendation Engines",
+          "Shopify",
+          "WooCommerce"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Software Engineer and Full-Stack Web Developer",
+          "occupationalCategory": "15-1252.00 Software Developers",
+          "occupationLocation": { "@type": "Country", "name": "Ghana" },
+          "skills": "React, Next.js, TypeScript, Node.js, Express, Laravel, Java, Python, MySQL, PostgreSQL, MongoDB, AWS, Docker, Paystack, Stripe, OpenAI, RAG pipelines"
+        },
+        "sameAs": [
+          "https://github.com/tiankay999",
+          "https://www.linkedin.com/in/tiankay999/",
+          "https://www.instagram.com/chrisblury999/",
+          "https://wa.me/233505504505"
+        ],
+        "worksFor": { "@id": "https://christian-asante.com/#business" },
+        "owns": [
+          { "@id": "https://christian-asante.com/#project-questiondey" },
+          { "@id": "https://christian-asante.com/#project-steeze-humanizer" }
+        ],
+        "subjectOf": { "@id": "https://christian-asante.com/#webpage" }
+      },
+
+      {
+        "@type": ["ProfessionalService", "LocalBusiness"],
+        "@id": "https://christian-asante.com/#business",
+        "name": "Christian Asante — Software Engineering & Web Development",
+        "alternateName": "Tiankay999 Web Development, Ghana",
+        "description": "Freelance software engineering and web development studio run by Christian Asante (Tiankay999) in Ghana. End-to-end web engineering, SaaS and e-commerce platforms, API development, performance optimisation and AI integration for clients in Ghana and worldwide.",
+        "url": "https://christian-asante.com/",
+        "image": { "@id": "https://christian-asante.com/#primaryimage" },
+        "founder": { "@id": "https://christian-asante.com/#person" },
+        "employee": { "@id": "https://christian-asante.com/#person" },
+        "email": "mailto:tiankay999@gmail.com",
+        "telephone": "+233505504505",
+        "priceRange": "$$",
+        "currenciesAccepted": "GHS, USD",
+        "paymentAccepted": "Paystack, Stripe, PayPal, Bank Transfer, Mobile Money",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GH"
+        },
+        "areaServed": [
+          { "@type": "Country", "name": "Ghana" },
+          { "@type": "AdministrativeArea", "name": "West Africa" },
+          { "@type": "Place", "name": "Worldwide (remote)" }
+        ],
+        "serviceType": [
+          "Software Engineering",
+          "Full-Stack Web Development",
+          "Web Application Development",
+          "SaaS Development",
+          "E-commerce Development",
+          "POS System Development",
+          "API Development and Integration",
+          "Web Performance Optimization",
+          "AI Integration"
+        ],
+        "knowsLanguage": "English",
+        "slogan": "Your Vision, My Engineering",
+        "sameAs": [
+          "https://github.com/tiankay999",
+          "https://www.linkedin.com/in/tiankay999/",
+          "https://www.instagram.com/chrisblury999/"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "sales",
+            "email": "tiankay999@gmail.com",
+            "telephone": "+233505504505",
+            "availableLanguage": "English",
+            "areaServed": "Worldwide"
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "technical support",
+            "email": "tiankay999@gmail.com",
+            "availableLanguage": "English",
+            "areaServed": "Worldwide"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Software engineering and web development services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "position": 1,
+              "itemOffered": {
+                "@type": "Service",
+                "name": "End-to-End Web Engineering",
+                "description": "Bespoke web applications with maintainable architecture, tuned data layers and fluid third-party integrations: server-side development (REST/GraphQL endpoints, microservices, identity and access management), UI engineering (Next.js, React, Vue, TypeScript) and data architecture (SQL/NoSQL tuning, resilient schemas).",
+                "provider": { "@id": "https://christian-asante.com/#business" },
+                "areaServed": "Worldwide"
+              }
+            },
+            {
+              "@type": "Offer",
+              "position": 2,
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Online Stores & SaaS Platforms",
+                "description": "Multi-tenant systems with permission layers and tenant boundaries, billing and payment flows (Paystack, Stripe, PayPal, regional gateways, subscription lifecycles) and control panels with workflow automation and reporting.",
+                "provider": { "@id": "https://christian-asante.com/#business" },
+                "areaServed": "Worldwide"
+              }
+            },
+            {
+              "@type": "Offer",
+              "position": 3,
+              "itemOffered": {
+                "@type": "Service",
+                "name": "API Development & Connectivity",
+                "description": "Tailored REST and GraphQL API engineering with layered modular design, platform integrations (payment processors, identity providers, external services) and security controls including JWT, OAuth 2.0, request validation and throttling.",
+                "provider": { "@id": "https://christian-asante.com/#business" },
+                "areaServed": "Worldwide"
+              }
+            },
+            {
+              "@type": "Offer",
+              "position": 4,
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Speed Tuning & Code Modernization",
+                "description": "Legacy code overhaul, Core Web Vitals and Lighthouse performance deep-dives, paint and rendering profiling, plus caching and database query tuning so applications run leaner and scale smoothly.",
+                "provider": { "@id": "https://christian-asante.com/#business" },
+                "areaServed": "Worldwide"
+              }
+            },
+            {
+              "@type": "Offer",
+              "position": 5,
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Artificial Intelligence Integration & Development",
+                "description": "LLM and generative AI integration (OpenAI, Gemini, Claude APIs, prompt engineering, RAG pipelines), intelligent feature development (AI chatbots, smart search, content generation, recommendation engines) and ML pipelines with vector databases and embeddings.",
+                "provider": { "@id": "https://christian-asante.com/#business" },
+                "areaServed": "Worldwide"
+              }
+            }
+          ]
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Nicholas Zanu", "jobTitle": "CEO", "worksFor": { "@type": "Organization", "name": "Selseve" } },
+            "reviewBody": "An amazing developer and human being who truly understands what a platform needs to grow.",
+            "itemReviewed": { "@id": "https://christian-asante.com/#business" }
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Kazi Farhan Masum", "jobTitle": "CEO", "worksFor": { "@type": "Organization", "name": "Puppetbrush" } },
+            "reviewBody": "Very knowledgeable, patient, and always ready to explain things. Great experience working with him.",
+            "itemReviewed": { "@id": "https://christian-asante.com/#business" }
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Mina", "jobTitle": "CEO", "worksFor": { "@type": "Organization", "name": "MinaGlitzy" } },
+            "reviewBody": "Thanks to him, we were able to launch our platform on time and start getting sales immediately.",
+            "itemReviewed": { "@id": "https://christian-asante.com/#business" }
+          }
+        ]
+      },
+
+      {
+        "@type": "WebSite",
+        "@id": "https://christian-asante.com/#website",
+        "url": "https://christian-asante.com/",
+        "name": "Christian Asante (Tiankay999) — Software Engineer & Web Developer",
+        "alternateName": ["Christian Asante Portfolio", "Tiankay999"],
+        "description": "Portfolio of Christian Asante (Tiankay999), a software engineer and full-stack web developer based in Ghana.",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://christian-asante.com/#person" },
+        "copyrightHolder": { "@id": "https://christian-asante.com/#person" },
+        "about": { "@id": "https://christian-asante.com/#person" }
+      },
+
+      {
+        "@type": "ProfilePage",
+        "@id": "https://christian-asante.com/#webpage",
+        "url": "https://christian-asante.com/",
+        "name": "Christian Asante (Tiankay999) — Software Engineer & Web Developer, Ghana",
+        "description": "Christian Asante (Tiankay999) is a full-stack software engineer and web developer in Ghana. React, Next.js, Node.js, SaaS, e-commerce, POS and AI integrations.",
+        "isPartOf": { "@id": "https://christian-asante.com/#website" },
+        "about": { "@id": "https://christian-asante.com/#person" },
+        "mainEntity": { "@id": "https://christian-asante.com/#person" },
+        "primaryImageOfPage": { "@id": "https://christian-asante.com/#primaryimage" },
+        "inLanguage": "en",
+        "breadcrumb": { "@id": "https://christian-asante.com/#breadcrumb" },
+        "hasPart": { "@id": "https://christian-asante.com/#projects" },
+        "significantLink": [
+          "https://christian-asante.com/#services",
+          "https://christian-asante.com/#works",
+          "https://christian-asante.com/#about",
+          "https://christian-asante.com/#contact"
+        ]
+      },
+
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://christian-asante.com/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://christian-asante.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://christian-asante.com/#services" },
+          { "@type": "ListItem", "position": 3, "name": "About", "item": "https://christian-asante.com/#about" },
+          { "@type": "ListItem", "position": 4, "name": "Works", "item": "https://christian-asante.com/#works" },
+          { "@type": "ListItem", "position": 5, "name": "Contact", "item": "https://christian-asante.com/#contact" }
+        ]
+      },
+
+      {
+        "@type": "ItemList",
+        "@id": "https://christian-asante.com/#projects",
+        "name": "Projects built by Christian Asante (Tiankay999)",
+        "description": "Selected web applications, SaaS platforms, e-commerce stores and AI products engineered by Christian Asante.",
+        "numberOfItems": 8,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-questiondey",
+              "name": "QuestionsDey — Online Study & Q&A Platform",
+              "description": "An academic discussion and Q&A study platform with a modern, fast, customizable interface and AI integration. Built with Next.js, MongoDB, Tailwind CSS, Redux Toolkit, the OpenAI API and SSL Commerz payments.",
+              "url": "https://questiondey.com/",
+              "applicationCategory": "EducationalApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/questionsdeyview.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-selseve",
+              "name": "Selseve — Find Trusted Artisans Near You",
+              "description": "A marketplace platform connecting people with trusted artisans nearby, with AI integration. Built with Next.js, Paystack, Tailwind CSS and Framer Motion.",
+              "url": "https://selseve.com/",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/selseveview.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-qrollix",
+              "name": "Qrollix — QR Code Attendance System",
+              "description": "A QR-code based attendance and verification platform with device fingerprinting. Built with Next.js, Tailwind CSS, Framer Motion and FingerprintJS.",
+              "url": "https://qrollix.com/",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/qrollix.jpg",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-minaglitzy",
+              "name": "MinaGlitzy — Cosmetics E-commerce Store",
+              "description": "An online shop for cosmetics and accessories with special offers and promotions. Built with Next.js, MongoDB, Tailwind CSS, Redux Toolkit and Paystack.",
+              "url": "https://minaglitz.com/",
+              "applicationCategory": "ShoppingApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/minaview.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-treatos",
+              "name": "Treatos BD — Pet Shop with POS System",
+              "description": "A pet shop e-commerce store with an integrated point-of-sale system. Built with React, Laravel, PostgreSQL, Material UI and SSL Commerz.",
+              "url": "https://treatosbd.com/",
+              "applicationCategory": "ShoppingApplication",
+              "operatingSystem": "Web browser",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-nkaydata",
+              "name": "NkayData — Mobile Data & Airtime Reselling Platform",
+              "description": "A platform for buying and reselling mobile data bundles and airtime in Ghana. Built with Next.js, Express.js, MongoDB, Tailwind CSS and Paystack.",
+              "url": "https://nkaydata.com/",
+              "applicationCategory": "FinanceApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/nkaydata.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-steeze-track",
+              "name": "Steeze Track — Import & Export Management System",
+              "description": "A management system for import and export logistics operations. Built with Next.js, Express.js, MySQL, Tailwind CSS and Paystack.",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/steezetrackview.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "WebApplication",
+              "@id": "https://christian-asante.com/#project-steeze-humanizer",
+              "name": "Steeze Humanizer — AI Content Writing Assistant",
+              "description": "An AI-powered content writing and text humanizing assistant. Built with Next.js, Express.js, MySQL, Tailwind CSS and Paystack.",
+              "url": "https://steezehumanizer.com/",
+              "applicationCategory": "UtilitiesApplication",
+              "operatingSystem": "Web browser",
+              "image": "https://christian-asante.com/images/humanizer.png",
+              "author": { "@id": "https://christian-asante.com/#person" },
+              "creator": { "@id": "https://christian-asante.com/#person" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+
+  <!-- ============================================================
+       NO-JAVASCRIPT FALLBACK
+       Mirrors the rendered page so crawlers and AI agents that do not
+       execute JavaScript (GPTBot, ClaudeBot, PerplexityBot and friends)
+       still read the full profile, services and project list.
+       ============================================================ -->
+  <noscript>
+    <div style="max-width:52rem;margin:0 auto;padding:2.5rem 1.25rem;font-family:system-ui,sans-serif;line-height:1.65;color:#eaeaea;background:#0a0a0a">
+      <h1>Christian Asante (Tiankay999) — Software Engineer &amp; Web Developer in Ghana</h1>
+      <p>
+        <strong>Christian Kwabena Asante</strong>, known online as <strong>Tiankay999</strong>, is a
+        software engineer and full-stack web developer based in Ghana, working with clients across
+        Ghana, West Africa and worldwide. He engineers digital experiences with precision: scalable
+        web applications, SaaS platforms, e-commerce stores, POS systems, online study platforms and
+        AI-powered products.
+      </p>
+      <p>
+        He blends clean, modern design with performance-driven functionality — building intuitive
+        interfaces with React, Next.js and Tailwind CSS, and robust backends with Node.js, Express,
+        Laravel, Java, MySQL, MongoDB and PostgreSQL. Beyond client work he builds his own products,
+        including QuestionsDey, and runs the tech branding platform STEEZE TECH on TikTok and YouTube.
+      </p>
+
+      <h2>At a glance</h2>
+      <ul>
+        <li><strong>Name:</strong> Christian Asante (Christian Kwabena Asante)</li>
+        <li><strong>Username / handle:</strong> Tiankay999</li>
+        <li><strong>Role:</strong> Software Engineer, Full-Stack Web Developer</li>
+        <li><strong>Location:</strong> Ghana — available remotely worldwide</li>
+        <li><strong>Experience:</strong> 2+ years, 24 projects completed, 100% client satisfaction</li>
+        <li><strong>Email:</strong> <a href="mailto:tiankay999@gmail.com">tiankay999@gmail.com</a></li>
+        <li><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/233505504505">+233 50 550 4505</a></li>
+      </ul>
+
+      <h2 id="services">Services</h2>
+      <ol>
+        <li>
+          <strong>End-to-End Web Engineering</strong> — bespoke web applications with maintainable
+          architecture, tuned data layers and third-party integrations. Server-side development
+          (REST/GraphQL endpoints, microservices, identity and access management), UI engineering
+          (Next.js, React, Vue, TypeScript) and data architecture (SQL/NoSQL tuning, resilient schemas).
+        </li>
+        <li>
+          <strong>Online Stores &amp; SaaS Platforms</strong> — multi-tenant systems with permission
+          layers and tenant boundaries, billing and payment flows (Paystack, Stripe, PayPal, regional
+          gateways, subscription lifecycles), control panels and workflow automation.
+        </li>
+        <li>
+          <strong>API Development &amp; Connectivity</strong> — tailored REST and GraphQL APIs with
+          layered modular design, platform integrations, and security via JWT, OAuth 2.0, request
+          validation and throttling.
+        </li>
+        <li>
+          <strong>Speed Tuning &amp; Code Modernization</strong> — legacy code overhaul, Core Web Vitals
+          and Lighthouse deep-dives, paint and rendering profiling, caching and database query tuning.
+        </li>
+        <li>
+          <strong>Artificial Intelligence Integration &amp; Development</strong> — LLM and generative AI
+          integration (OpenAI, Gemini, Claude APIs, prompt engineering, RAG pipelines), AI chatbots,
+          smart search, content generation, recommendation engines, vector databases and embeddings.
+        </li>
+      </ol>
+
+      <h2 id="works">Selected projects</h2>
+      <ul>
+        <li><a href="https://questiondey.com/">QuestionsDey</a> — online study and Q&amp;A platform with AI integration (Next.js, MongoDB, Tailwind CSS, Redux Toolkit, OpenAI, SSL Commerz).</li>
+        <li><a href="https://selseve.com/">Selseve</a> — platform connecting people with trusted artisans nearby (Next.js, Paystack, Tailwind CSS, Framer Motion).</li>
+        <li><a href="https://qrollix.com/">Qrollix</a> — QR code attendance system (Next.js, Tailwind CSS, Framer Motion, FingerprintJS).</li>
+        <li><a href="https://minaglitz.com/">MinaGlitzy</a> — cosmetics e-commerce store (Next.js, MongoDB, Tailwind CSS, Redux Toolkit, Paystack).</li>
+        <li><a href="https://treatosbd.com/">Treatos BD</a> — pet shop with POS system (React, Laravel, PostgreSQL, Material UI, SSL Commerz).</li>
+        <li><a href="https://nkaydata.com/">NkayData</a> — mobile data and airtime reselling platform (Next.js, Express.js, MongoDB, Tailwind CSS, Paystack).</li>
+        <li>Steeze Track — import and export management system (Next.js, Express.js, MySQL, Tailwind CSS, Paystack).</li>
+        <li><a href="https://steezehumanizer.com/">Steeze Humanizer</a> — AI content writing assistant (Next.js, Express.js, MySQL, Tailwind CSS, Paystack).</li>
+      </ul>
+
+      <h2>Technologies</h2>
+      <p>
+        React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux Toolkit, Framer Motion, GSAP,
+        Node.js, Express, Laravel, PHP, Python, Java, REST, GraphQL, microservices, MySQL, PostgreSQL,
+        MongoDB, AWS, Vercel, Railway, Docker, VPS, PM2, Shopify, WooCommerce, Paystack, Stripe,
+        PayPal, SSL Commerz, JWT, OAuth 2.0, OpenAI, Gemini, Claude, RAG, vector databases.
+      </p>
+
+      <h2>What clients say</h2>
+      <blockquote>"An amazing developer and human being who truly understands what a platform needs to grow." — Nicholas Zanu, CEO, Selseve</blockquote>
+      <blockquote>"Very knowledgeable, patient, and always ready to explain things. Great experience working with him." — Kazi Farhan Masum, CEO, Puppetbrush</blockquote>
+      <blockquote>"Thanks to him, we were able to launch our platform on time and start getting sales immediately." — Mina, CEO, MinaGlitzy</blockquote>
+
+      <h2 id="contact">Contact</h2>
+      <p>
+        Email <a href="mailto:tiankay999@gmail.com">tiankay999@gmail.com</a> ·
+        WhatsApp <a href="https://wa.me/233505504505">+233 50 550 4505</a> ·
+        <a href="https://github.com/tiankay999">GitHub @tiankay999</a> ·
+        <a href="https://www.linkedin.com/in/tiankay999/">LinkedIn @tiankay999</a> ·
+        <a href="https://www.instagram.com/chrisblury999/">Instagram @chrisblury999</a>
+      </p>
+      <p><em>Your Vision, My Engineering.</em></p>
+    </div>
+  </noscript>
 </body>
 
 </html>

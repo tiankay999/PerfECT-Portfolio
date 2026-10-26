@@ -77,11 +77,15 @@ export default function Hero() {
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroBgUrl}
-          alt=""
-          className="w-full h-full object-cover opacity-50"
-        />
+        {/* An empty src makes the browser re-request the document, so only
+            render the backdrop when one is actually configured. */}
+        {heroBgUrl && (
+          <img
+            src={heroBgUrl}
+            alt=""
+            className="w-full h-full object-cover opacity-50"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-b from-obsidian/50 via-obsidian/30 to-obsidian" />
         {/* Radial glow */}
         <div className="absolute top-1/4 left-1/3 w-[600px] h-[600px] rounded-full bg-gold/3 blur-[120px]" />
@@ -108,6 +112,13 @@ export default function Hero() {
               {char === " " ? "\u00A0" : char}
             </span>
           ))}
+          {/* Lets the single h1 carry the role and location for search engines
+              and screen readers without altering the visual composition.
+              GSAP only animates .char spans, so this stays static. */}
+          <span className="sr-only">
+            {" "}
+            \u2014 Software Engineer and Full-Stack Web Developer in Ghana
+          </span>
         </h1>
 
         <div className="hero-line w-24 h-[1px] bg-gradient-to-r from-gold to-transparent mb-10" />

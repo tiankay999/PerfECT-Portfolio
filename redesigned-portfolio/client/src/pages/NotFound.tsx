@@ -1,10 +1,27 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle, Home } from "lucide-react";
+import { useEffect } from "react";
 import { useLocation } from "wouter";
 
 export default function NotFound() {
   const [, setLocation] = useLocation();
+
+  // Unknown URLs are rewritten to index.html and answered with a 200, so search
+  // engines would otherwise index them as thin duplicates of the homepage.
+  useEffect(() => {
+    const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    const previousRobots = robots?.content;
+    const previousTitle = document.title;
+
+    if (robots) robots.content = "noindex, nofollow";
+    document.title = "Page not found | Christian Asante (Tiankay999)";
+
+    return () => {
+      if (robots && previousRobots !== undefined) robots.content = previousRobots;
+      document.title = previousTitle;
+    };
+  }, []);
 
   const handleGoHome = () => {
     setLocation("/");

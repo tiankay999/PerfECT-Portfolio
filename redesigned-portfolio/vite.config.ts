@@ -203,10 +203,14 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+// Editor/debugging affordances only. In a production build they add nothing but
+// weight: the Manus runtime alone inlines ~367 kB into index.html, which hurts
+// Core Web Vitals and buries the real markup for search and AI crawlers. Keep
+// them on the dev server, leave them out of the bundle.
+const devOnlyPlugins = [jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
-export default defineConfig({
-  plugins,
+export default defineConfig(({ command }) => ({
+  plugins: [react(), tailwindcss(), ...(command === "serve" ? devOnlyPlugins : [])],
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -238,4 +242,4 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-});
+}));

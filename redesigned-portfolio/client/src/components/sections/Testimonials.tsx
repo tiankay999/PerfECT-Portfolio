@@ -71,7 +71,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-4 pt-5 border-t border-white/5">
                 <img
                   src={t.company}
-                  alt={t.name}
+                  alt={`${t.title} — client of Christian Asante`}
                   className="w-11 h-11 rounded-full object-cover"
                 />
                 <div>

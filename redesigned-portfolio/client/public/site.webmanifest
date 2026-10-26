@@ -1,0 +1,22 @@
+{
+  "name": "Christian Asante (Tiankay999) — Software Engineer & Web Developer",
+  "short_name": "Christian Asante",
+  "description": "Portfolio of Christian Asante (Tiankay999), a full-stack software engineer and web developer based in Ghana.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "categories": ["business", "portfolio", "productivity"],
+  "icons": [
+    {
+      "src": "/images/christian.png",
+      "sizes": "941x1672",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

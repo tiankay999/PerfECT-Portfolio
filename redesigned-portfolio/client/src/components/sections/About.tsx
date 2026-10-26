@@ -93,7 +93,7 @@ export default function About() {
           <div ref={imgRef} className="lg:col-span-2 overflow-hidden rounded-2xl border border-gold/10">
             <img
               src={aboutImageUrl}
-              alt=" Christian Kwabena Asante"
+              alt="Christian Kwabena Asante (Tiankay999), software engineer and full-stack web developer based in Ghana"
               className="w-full h-auto object-cover aspect-[3/4]"
             />
           </div>
